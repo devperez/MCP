@@ -1,0 +1,39 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+.hero {
+    background-image: url(/images/gnomes.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:500px;
+    border-radius: 0 0 30% 30%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navwrapper {
+    position: sticky;
+}
+
+.logo {
+    margin: 40px;
+}
+
+.navlinks {
+    margin: 40px;
+}
+
+.navitem {
+    margin-right: 32px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
